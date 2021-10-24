@@ -1,0 +1,23 @@
+<class 'psycopg2.errors.UndefinedObject'>occurred.ERROR:  no existe el tipo «datetime»
+LINE 4:  "FEC_MEDICION" DATETIME NOT NULL, 
+                        ^
+2021-10-01 13:59:44<class 'psycopg2.errors.UndefinedObject'>occurred.ERROR:  no existe el tipo «datetime»
+LINE 4:  "FEC_MEDICION" DATETIME NOT NULL, 
+                        ^
+2021-10-01 14:00:53<class 'psycopg2.errors.UndefinedObject'>occurred.ERROR:  no existe el tipo «datetime»
+LINE 4:  "FEC_MEDICION" DATETIME NOT NULL, 
+                        ^
+2021-10-01 14:52:25<class 'psycopg2.errors.UndefinedColumn'>occurred.ERROR:  no existe la columna «COD_ESTACION» en la relación «ges_variable_oficial»
+LINE 1: INSERT INTO "ges_variable_oficial" ("COD_ESTACION", "COD_PAR...
+                                            ^
+2021-10-01 14:53:15<class 'psycopg2.errors.StringDataRightTruncation'>occurred.ERROR:  el valor es demasiado largo para el tipo character(1)
+2021-10-01 14:55:52<class 'psycopg2.errors.StringDataRightTruncation'>occurred.ERROR:  el valor es demasiado largo para el tipo character(1)
+2021-10-01 14:58:48<class 'psycopg2.errors.UndefinedTable'>occurred.ERROR:  no existe la relación «glo_estaciones»
+LINE 1: DELETE FROM "glo_estaciones"
+                    ^
+2021-10-05 00:20:46<class 'psycopg2.errors.UndefinedTable'>occurred.ERROR:  no existe la relación «glo_estaciones»
+LINE 1: DELETE FROM "glo_estaciones"
+                    ^
+2021-10-05 00:23:24<class 'psycopg2.errors.ForeignKeyViolation'>occurred.ERROR:  update o delete en «ges_estaciones» viola la llave foránea «fk_codigo_estacion_glosatipo» en la tabla «ges_estacion_glosatipo»
+DETAIL:  La llave (cod_estacion)=(01000004) todavía es referida desde la tabla «ges_estacion_glosatipo».
+2021-10-05 00:24:45
